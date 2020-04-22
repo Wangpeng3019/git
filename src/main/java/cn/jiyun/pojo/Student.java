@@ -10,6 +10,15 @@ public class Student {
     private String hobby;
     private Integer age;
     private Date beginDate;
+    private String git;
+
+    public String getGit() {
+        return git;
+    }
+
+    public void setGit(String git) {
+        this.git = git;
+    }
 
     private  String  uname;
 
